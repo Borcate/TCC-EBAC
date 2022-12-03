@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/Borcate/testes-mobile_ebac.git'
+                git branch: 'main', url: 'https://github.com/Borcate/TCC-EBAC.git'
             }
         }
             stage('Instalar dependendias') {

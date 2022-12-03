@@ -18,3 +18,4 @@ class MyStoreScreen {
 }
 
 module.exports = new MyStoreScreen()
+

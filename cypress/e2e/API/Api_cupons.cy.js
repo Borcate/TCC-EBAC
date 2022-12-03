@@ -15,7 +15,6 @@ describe('empty spec', () => {
         })
     });
 
-
     it('Listar cupom por id', ()=>{
         cy.request({
             method: 'GET',
